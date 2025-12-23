@@ -12,3 +12,13 @@ sweets = ("apple", "banana", "cherry", "elderberry")
 print(sweets[2:-1]) #output: ('cherry',)
 print(sweets[2::-1])#output: ('cherry', 'banana', 'apple')
 print(sweets[-1:-4]) #output: () 
+
+#packing tuples
+fruits = ("guava", "lemon", "mango") 
+print(fruits)  #output: ('guava', 'lemon', 'mango')
+
+#unpacking tuples
+(green, yellow, orange) = fruits
+print(green)   #output: guava
+print(yellow)  #output: lemon
+print(orange)  #output: mango   
