@@ -29,3 +29,10 @@ y = list(x)
 y[0] = "scone"
 x = tuple(y)
 print(x)  #output: ('scone', 'butter', 'jam', 'honey') 
+
+#add items to a tuple  
+mytuple = ("subaru", "jaguar", "bentley", "rolls-royce")
+x = list(mytuple)
+x.append("lamborghini")
+mytuple = tuple(x)
+print(mytuple)  #output: ('subaru', 'jaguar', 'bentley', 'rolls-royce', 'lamborghini')
