@@ -22,3 +22,10 @@ print(fruits)  #output: ('guava', 'lemon', 'mango')
 print(green)   #output: guava
 print(yellow)  #output: lemon
 print(orange)  #output: mango   
+
+#changing tuple values by converting to list
+x = ("bread", "butter", "jam", "honey")
+y = list(x)
+y[0] = "scone"
+x = tuple(y)
+print(x)  #output: ('scone', 'butter', 'jam', 'honey') 
